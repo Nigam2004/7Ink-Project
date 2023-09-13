@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ......font familis......... */
+@font-face {
+    font-family: 'Tomato';
+    src: url('Fonts\TomatoGrotesk-Regular.otf');
+    font-family: 'tomatoextra';
+    src: url('Fonts\TomatoGrotesk-ExtraBoldSlanted.otf');
+
+}
+
+.tomato {
+    font-family: 'Tomato';
+
+}
+
+.tomatoextra {
+    font-family: 'tomatoextra';
+}
+
+@font-face {
+    font-family: 'tomatosemi';
+    src: url('Fonts\TomatoGrotesk-SemiBoldSlanted.otf');
+    font-family: 'sandbrush';
+    src: url('Fonts\sandbrush.TTF');
+}
+
+.sandbrush {
+    font-family: 'sandbrush';
+}
+
+.tomatosemi {
+    font-family: 'tomatosemibold';
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('Fonts/MONTSERRAT.TTF');
+}
+
+.monserrat {
+    font-family: 'montserrat';
+}
+
+/* .......Corousal...... */
+.slick-slide div {
+    margin: 0 0.25rem;
+}
+/* -----listfooter--------- */
+.listfooter{
+    @apply flex items-center gap-1 pb-2
+}
