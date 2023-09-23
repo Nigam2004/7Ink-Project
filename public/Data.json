@@ -2,7 +2,7 @@
     {
       "id":1,
       "Image":"/arts/Art1.jpg",
-      "Name":"nigam",
+      "Name":"Nigam",
       "Size":"",
       "Description":"hello"
       
@@ -11,35 +11,35 @@
     
     {
       "id":2,
-      "Image":"/arts/Art1.jpg",
+      "Image":"/arts/Art2.jpg",
       "Name":"raja",
       "Size":"",
       "Description":""
     },
     {
       "id":3,
-      "Image":"/arts/Art1.jpg",
+      "Image":"/arts/Art3.jpg",
       "Name":"deepak",
       "Size":"",
       "Description":""
     },
     {
       "id":4,
-      "Image":"/arts/Art1.jpg",
+      "Image":"/arts/Art4.jpg",
       "Name":"adham",
       "Size":"hari",
       "Description":""
     },
     {
       "id":5,
-      "Image":"/arts/Art1.jpg",
+      "Image":"/arts/Art5.jpg",
       "Name":"gopi",
       "Size":"",
       "Description":""
     },
     {
       "id":6,
-      "Image":"/arts/Art1.jpg",
+      "Image":"/arts/Art6.jpg",
       "Name":"ram",
       "Size":"",
       "Description":""

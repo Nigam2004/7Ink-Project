@@ -10,8 +10,9 @@ import About from './pages/about'
 import All from './pages/All'
 import Images from './pages/Images'
 import Vedios from './pages/Vedios'
-import GalaryNav from './Component/GalaryNav'
+// import GalaryNav from './Component/GalaryNav'
 import CardDetail from './Component/CardDetail'
+import Footer from './Component/Footer'
 // import Footer from './Component/Footer'
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path='/contact' Component={Contact}></Route>
           <Route path='/about' Component={About}></Route>
         </Routes>
+        <Footer></Footer>
       </Router>
     </>
   )

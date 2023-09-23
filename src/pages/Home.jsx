@@ -32,7 +32,7 @@ function Home() {
           </div>
         </div>
         {/* <-----------------Right-side------------->  */}
-        <div className="w-[100%] flex justify-center hover:scale-105 duration-1000 hover:skew-y-3">
+        <div className="w-[100%] flex justify-center hover:scale-105 duration-1000 hover:skew-y-3"data-aos="fade-left">
           <img src="Images/big.svg" className=' ' />
         </div>
       </div>
@@ -64,7 +64,7 @@ function Home() {
       </div>
 
     </div>
-    <Footer></Footer>
+    {/* <Footer></Footer> */}
     </>
   )
 }
