@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { AiOutlineMenu, AiFillHome, AiOutlineClose } from 'react-icons/ai'
 import { NavLink } from 'react-router-dom'
 
-
-
 function Navigation() {
   var prevScrollpos = window.scrollY;
   // console.log(prevScrollpos)
@@ -40,8 +38,8 @@ function Navigation() {
              md:z-auto z-[-1] left-0 w-full md:w-auto transition-all duration-500 ease-in ${isopen ? 'top-12' : 'top-[-490px]'}`} >
           {
             Links.map((list, index) =>
-              <li className='md:mx-3 md:my-0 my-3 font-semibold text-[#d7aa65]' key={index}>
-                <NavLink to={list.Link}>{list.name}</NavLink>
+              <li className='md:mx-3 md:my-0 my-3 font-semibold text-[#d7aa65]' key={index} onClick={()=>setisOpen(!isopen)}>
+                <NavLink to={list.Link} >{list.name}</NavLink>
               </li>
             )
           }

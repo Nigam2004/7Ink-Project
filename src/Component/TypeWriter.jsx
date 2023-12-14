@@ -1,20 +1,19 @@
-import React from 'react'
-import Typewriter from 'typewriter-effect'
+import React from "react";
+import Typewriter from "typewriter-effect";
 
-function TypeWriter() {
+function TypeWriter({ data }) {
   return (
-
-    <span className='font-bold text-[#5b4218] flex'>
+    <span className="font-bold  flex">
       <Typewriter
         options={{
-          strings: ["Artwork"],
+          strings: [data],
           autoStart: true,
           loop: true,
-          delay: 150,
-         }}
+          delay: 200,
+        }}
       />
     </span>
-    )
+  );
 }
 
-export default TypeWriter
+export default TypeWriter;

@@ -4,51 +4,66 @@
 
 /* ......font familis......... */
 @font-face {
-    font-family: 'Tomato';
-    src: url('Fonts\TomatoGrotesk-Regular.otf');
-    font-family: 'tomatoextra';
-    src: url('Fonts\TomatoGrotesk-ExtraBoldSlanted.otf');
-
+  font-family: "Tomato";
+  src: url("Fonts\TomatoGrotesk-Regular.otf");
+  font-family: "tomatoextra";
+  src: url("Fonts\TomatoGrotesk-ExtraBoldSlanted.otf");
 }
 
 .tomato {
-    font-family: 'Tomato';
-
+  font-family: "Tomato";
 }
 
 .tomatoextra {
-    font-family: 'tomatoextra';
+  font-family: "tomatoextra";
 }
 
 @font-face {
-    font-family: 'tomatosemi';
-    src: url('Fonts\TomatoGrotesk-SemiBoldSlanted.otf');
-    font-family: 'sandbrush';
-    src: url('Fonts\sandbrush.TTF');
+  font-family: "tomatosemi";
+  src: url("Fonts\TomatoGrotesk-SemiBoldSlanted.otf");
+  font-family: "sandbrush";
+  src: url("Fonts\sandbrush.TTF");
 }
 
 .sandbrush {
-    font-family: 'sandbrush';
+  font-family: "sandbrush";
 }
 
 .tomatosemi {
-    font-family: 'tomatosemibold';
+  font-family: "tomatosemibold";
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url('Fonts/MONTSERRAT.TTF');
+  font-family: "montserrat";
+  src: url("Fonts/MONTSERRAT.TTF");
 }
 
 .monserrat {
-    font-family: 'montserrat';
+  font-family: "montserrat";
 }
 
 /* .......Corousal...... */
 .slick-slide div {
-    margin: 0 0.25rem;
+  margin: 0 0.25rem;
 }
 /* -----listfooter--------- */
-.listfooter{
-    @apply flex items-center gap-1 pb-2
+.listfooter {
+  @apply flex items-center gap-1 pb-2;
+}
+.glass {
+  background: rgba(255, 159, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.bgimg {
+  background-image: url("Images/Contact4.svg");
+}
+.effect {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(70, 40, 11, 0.37);
 }

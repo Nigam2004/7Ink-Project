@@ -1,0 +1,21 @@
+.react-responsive-modal-modal {
+  background: #5b4218;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+label {
+  color: black;
+  font-weight: bold;
+}
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #eaeaea;
+  outline: none;
+  border-radius: 5px;
+}
