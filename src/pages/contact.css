@@ -19,3 +19,6 @@ form textarea {
   outline: none;
   border-radius: 5px;
 }
+.bgimg {
+  background-image: url("Images/Contact4.svg");
+}
