@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import Galary from "./pages/Galary";
 import Contact from "./pages/Contact";
-import About from "./pages/about";
+import About from "./pages/About";
 import All from "./pages/All";
 import Images from "./pages/Images";
 import Vedios from "./pages/Vedios";
