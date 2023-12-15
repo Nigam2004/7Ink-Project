@@ -30,7 +30,7 @@ export default function App() {
             <Route path="vedios" Component={Vedios} />
           </Route>
           <Route path="/contact" Component={Contact}></Route>
-          <Route path="/about" Component={About}></Route>
+          {/* <Route path="/about" Component={About}></Route> */}
         </Routes>
         <Footer></Footer>
       </Router>
