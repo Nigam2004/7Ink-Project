@@ -56,7 +56,7 @@ function Contact() {
                   method="POST"
                   className="flex flex-col"
                   name="contact"
-                  netlify
+                  data-netlify="true"
                 >
                   <label htmlFor="name">Your Name</label>
                   <input
