@@ -55,6 +55,8 @@ function Contact() {
                   action="https://formspree.io/f/xrgwnnkd"
                   method="POST"
                   className="flex flex-col"
+                  name="contact"
+                  netlify
                 >
                   <label htmlFor="name">Your Name</label>
                   <input
