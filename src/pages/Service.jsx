@@ -13,7 +13,7 @@ function Service() {
   }, []);
 
   return (
-    <div className="container mx-auto pt-[65px]">
+    <div className="container mx-auto pt-[65px] overflow-hidden">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
       pariatur doloribus, consequuntur error, soluta blanditiis at eveniet, quos
       ad fugit voluptate inventore! Quod repellat asperiores quisquam doloremque

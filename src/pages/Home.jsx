@@ -11,8 +11,8 @@ function Home() {
 
   return (
     <>
-      <div className="container mx-auto  pt-[65px] " id="home">
-        <div className=" bg-slate-100 md:flex p-8  justify-between">
+      <div className="container mx-auto  pt-[65px] overflow-hidden" id="home">
+        <div className=" bg-slate-100 md:flex p-8  justify-between ">
           {/* <----------------- Main-Left-side------------> */}
           <div className="flex  flex-col items-start">
             <h1

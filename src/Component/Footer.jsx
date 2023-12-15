@@ -17,8 +17,7 @@ function Footer() {
       {/* <----------Footer social Link--------------> */}
       <div className="p-4 flex sm:justify-between flex-wrap">
         <h1 className="tomato text-2xl">
-          {" "}
-          Get connected with us on social network:{" "}
+          Get connected with us on social network:
         </h1>
         <div className=" flex gap-x-10 items-center">
           <a

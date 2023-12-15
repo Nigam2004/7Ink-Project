@@ -5,32 +5,20 @@
 /* ......font familis......... */
 @font-face {
   font-family: "Tomato";
-  src: url("Fonts\TomatoGrotesk-Regular.otf");
-  font-family: "tomatoextra";
-  src: url("Fonts\TomatoGrotesk-ExtraBoldSlanted.otf");
+  src: url("Fonts/TomatoGrotesk-Regular.otf");
 }
 
 .tomato {
   font-family: "Tomato";
 }
 
-.tomatoextra {
-  font-family: "tomatoextra";
-}
-
 @font-face {
-  font-family: "tomatosemi";
-  src: url("Fonts\TomatoGrotesk-SemiBoldSlanted.otf");
   font-family: "sandbrush";
-  src: url("Fonts\sandbrush.TTF");
+  src: url("Fonts/sandbrush.TTF");
 }
 
 .sandbrush {
   font-family: "sandbrush";
-}
-
-.tomatosemi {
-  font-family: "tomatosemibold";
 }
 
 @font-face {
